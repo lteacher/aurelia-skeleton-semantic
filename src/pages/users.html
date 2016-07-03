@@ -1,0 +1,12 @@
+<template>
+  <div class="ui link cards">
+    <div class="card" repeat.for="user of users">
+      <div class="image">
+        <img src.bind="user.avatar_url" crossorigin />
+      </div>
+      <div class="content">
+        <a class="header" target="_blank" href.bind="user.html_url">${user.login}</a>
+      </div>
+    </div>
+  </div>
+</template>

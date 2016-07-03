@@ -2,11 +2,9 @@
   <require from="font-awesome/css/font-awesome.css"></require>
 
   <div class="ui pointing menu">
-    <a class="header item">${router.title}</a>
+    <a class="header item" href="#">${router.title}</a>
+    <a repeat.for="row of router.navigation" class="item ${row.isActive ? 'active' : ''}" href.bind="row.href">${row.title}</a>
 
-    <a repeat.for="row of router.navigation" class="item ${row.isActive ? 'active' : ''}">
-      ${row.title}
-    </a>
     <div class="right menu">
       <div class="item">
         <div class="ui transparent icon input">
