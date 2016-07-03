@@ -1,0 +1,21 @@
+<template>
+  <section>
+    <h2>${heading}</h2>
+
+    <form class="ui small form" submit.trigger="submit()">
+      <div class="field">
+        <label>First Name</label>
+        <input type="text" value.bind="firstName">
+      </div>
+      <div class="field">
+        <label>Last Name</label>
+        <input type="text" value.bind="lastName">
+      </div>
+      <div class="field">
+        <label>Full Name</label>
+        <p>${fullName}</p>
+      </div>
+      <button class="ui button" type="submit">Submit</button>
+    </form>
+  </section>
+</template>
