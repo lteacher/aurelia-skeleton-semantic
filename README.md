@@ -1,5 +1,7 @@
 # Simple Aurelia Skeleton with Semantic UI
 
+_*Note:* This is totall out of date and no longer maintained..._
+
 This is just a template for some Aurelia app with Semantic UI included and bare
 bones other stuff. The start kits are loaded to the hilt with great stuff but
 are not so simple to start out with or if you want a leaner starter and implement the rest.
